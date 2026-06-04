@@ -5,7 +5,6 @@
 def rain(walls):
     if not walls:
         return 0
-    
     n = len(walls)
     left_max = [0] * n
     right_max = [0] * n
