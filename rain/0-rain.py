@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Module for calculating rainwater retention."""
+
+
 def rain(walls):
     if not walls:
         return 0
