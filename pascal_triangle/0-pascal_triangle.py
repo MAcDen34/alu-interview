@@ -3,6 +3,7 @@
 This is pascal's triangle problem
 """
 
+
 def pascal_triangle(n):
     """Return Pascal's triangle as a list of lists of integers.
 
@@ -24,6 +25,5 @@ def pascal_triangle(n):
             row.append(prev_row[i - 1] + prev_row[i])
         row.append(1)
         triangle.append(row)
-
     return triangle
 
